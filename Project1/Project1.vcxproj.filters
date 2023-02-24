@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{d7cba2fc-1b80-44d0-be6a-1f2ba5603e37}</UniqueIdentifier>
+      <Extensions>*.glsl;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Mesh">
+      <UniqueIdentifier>{72bb428f-b296-44cb-bc96-2b451d265488}</UniqueIdentifier>
+      <Extensions>.dae</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Tex">
+      <UniqueIdentifier>{b8e19fe4-ae76-483a-90da-16d371269896}</UniqueIdentifier>
+      <Extensions>*.png;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\bin\assimp-vc143-mtd.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\bin\glew32.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\bin\glfw3.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d6_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d6_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d8_bothalf_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d8_bothalf_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d8_tophalf_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d8_tophalf_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d20_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\d20_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\desk_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\desk_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\drywall_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\drywall_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\metal_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\mic_body_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\mic_filt_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\mic_filt_spec.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="tex\mic_gain_diff.png">
+      <Filter>Resource Files\Tex</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\d6.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\d8.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\d20.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\desk.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_base.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_body.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_feet.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_filt_cmp.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_gain_knob.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_hold.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_leg.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\mic_swivel.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="mesh\wall.dae">
+      <Filter>Resource Files\Mesh</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="shader\ImgMatFrag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="shader\ImgMatVert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="shader\PropMatFrag.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="shader\PropMatVert.glsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
